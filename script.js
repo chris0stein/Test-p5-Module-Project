@@ -48,6 +48,9 @@ function draw() {
     }//end if keyCode
   }//end if keyIsPressed
 
+  fill('white');
+  textSize(18);
+  text('Use the up and down arrows to move the sun.', 25, 300);
 
 
 }//end draw()
